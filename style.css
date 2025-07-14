@@ -2,15 +2,9 @@ body {
 	background-color: grey
 };
 
-.header {
-  font-family: "EB Garamond", serif
-  font-optical-sizing: auto
-  font-weight: 450px
-  font-style: italic
-};
-
-.list {
-	font-family: "EB Garamond", serif
-	font-style: normal
-	font-weight: 400px
+.eb-garamond-header {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
 };
