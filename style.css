@@ -1,8 +1,8 @@
-.head {
-	background-color: maroon;
-};
 body {
 	background-color: black;
 	color: white;
 	font-family: 'EB-Garamond';
+};
+#head {
+	background-color: white;
 };
