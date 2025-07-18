@@ -3,9 +3,9 @@ body {
 	color: white;
 	font-family: 'EB-Garamond';
 };
-#head {
+.head {
 	background-color: white;
 	display: flex;
 	height: 60px;
-	width: 100%s
+	width: 100%
 };
