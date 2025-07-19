@@ -164,15 +164,16 @@ footer {
 
 .hero-content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.5em;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
+	margin-bottom: 2em;
 }
 
 .hero-image {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   border: 3px solid maroon;
   object-fit: cover;
@@ -189,7 +190,11 @@ footer {
     width: 100px;
     height: 100px;
   }
-
+	
+	.hero-image {
+		width: 60px;
+		height: 60px
+	}
   h2 {
     font-size: 18px;
   }
