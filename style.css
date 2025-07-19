@@ -13,11 +13,76 @@ body {
   line-height: 1.6;
   padding: 1em;
   overflow-x: hidden;
+  text-align: center;
+}
+
+header {
+  background-color: maroon;
+  padding: 1em 0;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+header nav ul li a {
+  font-family: 'Lobster', cursive;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+  background-color: #a52a2a;
+  color: #fff;
 }
 
 main {
   padding: 1em;
   width: 100%;
+}
+
+h1 {
+  font-family: 'EB Garamond', serif;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-family: 'Righteous', cursive;
+  font-size: 24px;
+  margin-bottom: 0.5em;
+}
+
+/* Profile image */
+.profile-image {
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid maroon;
+}
+
+/* Link styling for anchors outside nav */
+a {
+  font-family: 'Lobster', cursive;
+  color: #00acee;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Spacing between elements */
@@ -29,46 +94,11 @@ h1, h2, h3 {
   margin-bottom: 1em;
 }
 
-/* Navigation styling */
-.head nav ul {
-  list-style: none;
-  display: flex;
-  gap: 2em;
-}
-
-.head nav ul li a {
-  color: white;
-  text-decoration: none;
-  padding: 0.5em 1em;
-  display: inline-block;
-  transition: background-color 0.3s ease;
-  border-radius: 5px;
-}
-
-.head nav ul li a:hover,
-.head nav ul li a.active {
-  background-color: #444;
-  color: #fff;
-}
-
-/* Profile image */
-.profile-image img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-/* Headings */
-h2 {
-  font-size: 24px;
-}
-
-/* Mobile Responsive */
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .head nav ul {
+  header nav ul {
     flex-direction: column;
     gap: 1em;
-    align-items: flex-start;
   }
 
   .profile-image img {
@@ -78,9 +108,5 @@ h2 {
 
   h2 {
     font-size: 18px;
-  }
-
-  main {
-    padding: 1em;
   }
 }
