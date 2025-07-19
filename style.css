@@ -3,19 +3,69 @@
 body {
 	background-color: black;
 	color: white;
-	font-family: 'EB-Garamond';
-};
+	font-family: 'EB Garamond', serif;
+}
+
+/* Header Section Styling */
+.head {
+  background-color: maroon;
+  color: white;
+  padding: 1em 0;
+}
+
+/* Optional: center and space out nav */
+.head nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+/* Links inside the nav */
+.head nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Lobster', cursive; /* or any preferred font */
+  transition: color 0.3s;
+}
+
+/* Hover effect */
+.head nav a:hover {
+  color: #ffcccc; /* light pink for hover contrast */
+  text-decoration: underline;
+}
+
+
 ul, #LinkedIn {
-	font-family: 'Lobster', sans-serif;
-	transition: text-decoration: 0.15s;
-};
-ul, #LinkedIn:hover {
+	font-family: 'Lobster', cursive;
+}
+
+ul:hover, #LinkedIn:hover {
 	text-decoration: underline;
-};
-ul, #LinkedIn:active {
+}
+
+ul:active, #LinkedIn:active {
 	background-color: red;
-};
+}
+
 h2 {
 	font-family: 'Righteous', sans-serif;
 	font-size: 20px;
-};
+}
+
+/* Profile Image Styling */
+.profile-image img {
+  display: block;
+  margin: 2em auto;             /* centers the image */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;           /* makes it circular */
+  border: 3px solid maroon;     /* matches header color */
+  object-fit: cover;            /* keeps image proportional if not square */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* subtle glow */
+}
+
+
