@@ -11,7 +11,8 @@ body {
   color: white;
   font-family: 'EB Garamond', serif;
   line-height: 1.6;
-  padding: 0.5em; /* Reduced padding */
+  padding: 0;
+	margin: 0;
   overflow-x: hidden;
   text-align: left;
 }
@@ -22,11 +23,9 @@ header {
   width: 100%;
   padding: 1em 0;
   margin: 0;
-  position: relative;
-  left: 0;
-  right: 0;
 }
 
+/*nav header is centered*/
 header nav {
   max-width: 1000px;
   margin: 0 auto;
@@ -71,8 +70,8 @@ h1 {
 
 h2 {
   font-family: 'Righteous', cursive;
-  font-size: 24px;
-  margin-bottom: 0.3em; /* Reduced bottom space */
+  font-size: 20px;
+  margin-bottom: 0.3em; 
   text-align: left;
 }
 
@@ -100,7 +99,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Extra space before Certificates section */
 .certificates-section {
   margin-top: 2em;
 }
