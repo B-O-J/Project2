@@ -11,17 +11,20 @@ body {
   color: white;
   font-family: 'EB Garamond', serif;
   line-height: 1.6;
-  padding: 0.5em; /* reduced from 1em */
+  padding: 0.5em; /* Reduced padding */
   overflow-x: hidden;
   text-align: left;
 }
 
-/* Full-width header with no spacing */
+/* Full-width maroon header */
 header {
   background-color: maroon;
   width: 100%;
   padding: 1em 0;
-  margin: 0; /* ensures no space above or around */
+  margin: 0;
+  position: relative;
+  left: 0;
+  right: 0;
 }
 
 header nav {
@@ -52,9 +55,8 @@ header nav ul li a.active {
   color: #fff;
 }
 
-/* Main content area */
 main {
-  padding: 0.5em; /* reduced padding */
+  padding: 0.5em;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -69,8 +71,8 @@ h1 {
 
 h2 {
   font-family: 'Righteous', cursive;
-  font-size: 20px;
-  margin-bottom: 0.2em; /* reduced spacing below h2 */
+  font-size: 24px;
+  margin-bottom: 0.3em; /* Reduced bottom space */
   text-align: left;
 }
 
@@ -87,7 +89,7 @@ h2 {
   border: 4px solid maroon;
 }
 
-/* Anchor tags */
+/* Link styling */
 a {
   font-family: 'Lobster', cursive;
   color: #00acee;
@@ -98,7 +100,12 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Spacing between general elements */
+/* Extra space before Certificates section */
+.certificates-section {
+  margin-top: 2em;
+}
+
+/* Element spacing */
 section,
 article,
 div,
@@ -107,7 +114,7 @@ h1, h2, h3 {
   margin-bottom: 1em;
 }
 
-/* Responsive */
+/* Responsive adjustments */
 @media (max-width: 768px) {
   header nav ul {
     flex-direction: column;
