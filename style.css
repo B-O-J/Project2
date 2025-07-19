@@ -112,6 +112,12 @@ h1, h2, h3 {
   margin-bottom: 1em;
 }
 
+.copyright-text{
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   header nav ul {
