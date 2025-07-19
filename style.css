@@ -127,6 +127,41 @@ footer {
   margin-top: 2em;
 }
 
+.hero {
+  text-align: center;
+  margin: 2em auto;
+  max-width: 800px;
+}
+
+.hero p {
+  margin-top: 0.5em;
+  line-height: 1.5;
+}
+
+.about,
+.skills,
+.navigation-cta {
+  max-width: 800px;
+  margin: 2em auto;
+}
+
+.skills ul,
+.navigation-cta ul {
+  list-style: disc;
+  padding-left: 1.5em;
+  margin-top: 0.5em;
+}
+
+.navigation-cta ul li a {
+  font-family: 'Lobster', cursive;
+  color: #00acee;
+  text-decoration: none;
+}
+
+.navigation-cta ul li a:hover {
+  text-decoration: underline;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   header nav ul {
