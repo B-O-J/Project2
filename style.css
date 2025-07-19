@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Righteous&display=swap');
+
 body {
 	background-color: black;
 	color: white;
 	font-family: 'EB-Garamond';
 };
-.head {
-	background-color: white;
-	display: flex;
-	height: 60px;
-	width: 100%
+ul, #LinkedIn {
+	font-family: 'Lobster', sans-serif;
+	transition: text-decoration: 0.15s;
+};
+ul, #LinkedIn:hover {
+	text-decoration: underline;
+};
+/*ul, #LinkedIn:active {
+	background-color: red;
+};*/
+h2 {
+	font-family: 'Righteous', sans-serif;
+	font-size: 20px;
 };
