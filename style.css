@@ -7,12 +7,12 @@ body {
 };
 ul, #LinkedIn {
 	font-family: 'Lobster', sans-serif;
-	transition: text-decoration: 0.15s;
+	/*transition: text-decoration: 0.15s;*/
 };
-ul, #LinkedIn:hover {
+/*ul, #LinkedIn:hover {
 	text-decoration: underline;
 };
-/*ul, #LinkedIn:active {
+ul, #LinkedIn:active {
 	background-color: red;
 };*/
 h2 {
