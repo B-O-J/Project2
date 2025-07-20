@@ -48,6 +48,7 @@ header {
 header nav {
   max-width: 1000px;
   margin: 0 auto;
+	text-align: center;
 }
 
 header nav ul {
@@ -75,7 +76,7 @@ header nav ul li a.active {
 
 main {
   flex: 1;
-  padding: 0.5em;
+  padding: 1em;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
