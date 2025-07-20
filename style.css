@@ -130,7 +130,7 @@ footer {
 
 /* HERO SECTION */
 .hero-layout {
-  display: flex;
+  display: center;
   justify-content: center;
   align-items: center;
   margin-top: 2em;
@@ -140,10 +140,11 @@ footer {
   /*margin-left: 2em;
   margin-right: 2em;*/
   align-self: flex-start;
+	move: left;
 }
 .hero-image {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   border: 4px solid #7c0000;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
