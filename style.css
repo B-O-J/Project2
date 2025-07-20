@@ -195,12 +195,15 @@ footer {
   align-items: flex-start;
   gap: 2em;
   flex-wrap: wrap;
-  margin-bottom: 2em;
-  text-align: center;
+  margin: 4em auto 2em auto;
+  padding: 0 2em;
+	max-width: 1000px;
 }
 .resume-text {
   flex: 1 1 60%;
-  text-align: center;
+  text-align: left;
+	max-width: 600px;
+	margin: 0 auto;
 }
 .resume-image {
   flex: 0 0 auto;
