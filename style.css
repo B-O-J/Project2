@@ -16,11 +16,9 @@ html, body {
 
 /* General reset and flowy black background */
 body {
-  background: linear-gradient(145deg, #0d0d0d, #2a0000);
+  background: radial-gradientlinear-gradient(135deg, #0f0f0f, #3a0ca3);
   background-attachment: fixed;
   color: white;
-	background-image: url(''https://www.transparenttextures.com/patterns/black-linen.png');
-	background-blend-mode: overlay;
   font-family: 'EB Garamond', serif;
   line-height: 1.6;
   margin: 0;
@@ -151,7 +149,9 @@ footer {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  border: 4px solid #7c0000;
+  border: none;
+	object-fit: cover;
+	opacity: 0.95
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 .hero h1 {
