@@ -1,3 +1,4 @@
+/* IMPORT FONTS */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Righteous&display=swap');
 
 * {
@@ -6,7 +7,7 @@
   box-sizing: border-box;
 }
 
-/* Enable sticky footer layout */
+/* LAYOUT BASE */
 html, body {
   height: 100%;
   display: flex;
@@ -19,13 +20,13 @@ body {
   color: white;
   font-family: 'EB Garamond', serif;
   line-height: 1.6;
-  padding: 0;
   margin: 0;
   overflow-x: hidden;
   text-align: left;
+  position: relative;
 }
 
-/* Subtle sheen overlay */
+/* SHINY BACKGROUND OVERLAY */
 body::before {
   content: "";
   position: fixed;
@@ -33,22 +34,21 @@ body::before {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
+  background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
   z-index: -1;
 }
 
-/* Full-width maroon header */
+/* HEADER */
 header {
   background-color: maroon;
   width: 100%;
   padding: 1em 0;
-  margin: 0;
+  text-align: center;
 }
 
 header nav {
   max-width: 1000px;
   margin: 0 auto;
-	text-align: center;
 }
 
 header nav ul {
@@ -71,9 +71,9 @@ header nav ul li a {
 header nav ul li a:hover,
 header nav ul li a.active {
   background-color: #a52a2a;
-  color: #fff;
 }
 
+/* MAIN WRAPPER */
 main {
   flex: 1;
   padding: 1em;
@@ -82,6 +82,7 @@ main {
   margin: 0 auto;
 }
 
+/* TYPOGRAPHY */
 h1 {
   font-family: 'EB Garamond', serif;
   font-size: 2em;
@@ -96,17 +97,17 @@ h2 {
   text-align: left;
 }
 
-/* Link styling */
+/* LINK STYLING */
 a {
   font-family: 'Lobster', cursive;
   color: #00acee;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
 
+/* CERTIFICATE SECTION */
 .certificates-section {
   margin-top: 2em;
 }
@@ -119,26 +120,14 @@ h1, h2, h3 {
   margin-bottom: 1em;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
   text-align: center;
   font-size: 0.9em;
   margin-top: 2em;
 }
 
-/* HERO — index.html (centered content only) */
-.hero {
-  text-align: center;
-  margin: 2em auto;
-  max-width: 800px;
-}
-
-.hero p {
-  margin-top: 0.5em;
-  line-height: 1.5;
-}
-
-/* HERO Layout with Detached Image */
+/* INDEX.HTML — HERO SECTION */
 .hero-layout {
   display: flex;
   align-items: flex-start;
@@ -151,6 +140,7 @@ footer {
 .hero-image-container {
   flex: 0 0 auto;
   margin-left: 1em;
+  align-self: flex-start;
 }
 
 .hero-image {
@@ -161,15 +151,19 @@ footer {
   object-fit: cover;
 }
 
-.hero-text {
+.hero {
   flex: 1 1 600px;
+  text-align: center;
+  margin: 2em auto;
+  max-width: 800px;
 }
 
-.hero-text h1 {
-  margin-bottom: 0.5em;
+.hero p {
+  margin-top: 0.5em;
+  line-height: 1.5;
 }
 
-/* About, Skills, CTA */
+/* ABOUT, SKILLS, CTA */
 .about,
 .skills,
 .navigation-cta {
@@ -190,11 +184,7 @@ footer {
   text-decoration: none;
 }
 
-.navigation-cta ul li a:hover {
-  text-decoration: underline;
-}
-
-/* RESUME — image on right */
+/* RESUME.HTML — IMAGE RIGHT SIDE */
 .resume-header {
   display: flex;
   justify-content: space-between;
@@ -202,10 +192,17 @@ footer {
   gap: 2em;
   flex-wrap: wrap;
   margin-bottom: 2em;
+  text-align: left;
 }
 
 .resume-text {
   flex: 1 1 60%;
+  text-align: left;
+}
+
+.resume-image {
+  flex: 0 0 auto;
+  margin-top: 1em;
 }
 
 .resume-image img {
@@ -213,18 +210,18 @@ footer {
   height: 280px;
   border: none;
   object-fit: cover;
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
   opacity: 0.95;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .resume-image img:hover {
-  transform: scale(1.01);
+  transform: scale(1.02);
   opacity: 1;
 }
 
-/* Old profile image block (if used elsewhere) */
+/* PROFILE IMAGE (fallback/old) */
 .profile-image {
   margin: 1.5em 0;
   text-align: center;
@@ -237,7 +234,7 @@ footer {
   border: 4px solid maroon;
 }
 
-/* Responsive styles */
+/* RESPONSIVE */
 @media (max-width: 768px) {
   header nav ul {
     flex-direction: column;
@@ -261,6 +258,16 @@ footer {
   .profile-image img {
     width: 100px;
     height: 100px;
+  }
+
+  .resume-header {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .resume-text {
+    text-align: center;
   }
 
   .resume-image img {
