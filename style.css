@@ -131,12 +131,14 @@ footer {
 /* HERO SECTION */
 .hero-layout {
   display: flex;
+	flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2em;
-  flex-wrap: wrap;
+  /*margin-top: 2em;
+  flex-wrap: wrap;*/
 	text-align: center;
-	gap: 2em;
+	gap: 1.5em;
+	padding: 2em 1em;
 }
 .hero-image-container {
 	display: flex;
@@ -160,7 +162,7 @@ footer {
   margin: 0.5em 0;
 }
 .hero-text {
-  max-width: 500px;
+  max-width: 600px;
 }
 
 /* RESUME PAGE */
@@ -260,4 +262,12 @@ header nav ul {
 	flex-direction: column;
 	gap: 1em;
 }
+min-width: 768px
+.hero-layout {
+	flex-direction: row;
 }
+.hero-text {
+	text-align: left;
+}
+}
+
