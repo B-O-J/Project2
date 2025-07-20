@@ -16,7 +16,7 @@ html, body {
 
 /* General reset and flowy black background */
 body {
-  background: linear-gradient(160deg, #0a0f2c, #0d47a1);
+  background: linear-gradient(145deg, #0d0d0d, #2a0000);
   background-attachment: fixed;
   color: white;
   font-family: 'EB Garamond', serif;
