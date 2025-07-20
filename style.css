@@ -130,18 +130,18 @@ footer {
 
 /* HERO SECTION */
 .hero-layout {
-  display: center;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 2em;
   flex-wrap: wrap;
+	text-align: center;
+	gap: 2em;
 }
 .hero-image-container {
-  /*margin-left: 2em;
-  margin-right: 2em;*/
- /* align-self: flex-start;
-	move: left;*/
+	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 .hero-image {
   height: 150px;
@@ -159,9 +159,9 @@ footer {
   font-size: 1.2em;
   margin: 0.5em 0;
 }
-/*.hero-text {
-  text-align: center;
-}*/
+.hero-text {
+  max-width: 500px;
+}
 
 /* RESUME PAGE */
 .resume-container {
