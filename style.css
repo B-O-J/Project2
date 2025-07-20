@@ -137,13 +137,13 @@ footer {
   flex-wrap: wrap;
 }
 .hero-image-container {
-  margin-left: 2em;
-  margin-right: 2em;
+  /*margin-left: 2em;
+  margin-right: 2em;*/
   align-self: flex-start;
 }
 .hero-image {
-  height: 150px;
-  width: auto;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   border: 4px solid #7c0000;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
