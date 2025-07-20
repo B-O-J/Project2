@@ -16,7 +16,7 @@ html, body {
 
 /* General reset and flowy black background */
 body {
-  background: linear-gradient(160deg, #1c1c1c, #0f4c5c),url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+  background: linear-gradient(135deg, #1e1e2f, #ff5f6d),url('https://www.transparenttextures.com/patterns/noise-pattern.png');
 	background-blend-mode: overlay;
 	background-repeat: repeat;
   background-attachment: fixed;
