@@ -139,8 +139,9 @@ footer {
 .hero-image-container {
   /*margin-left: 2em;
   margin-right: 2em;*/
-  align-self: flex-start;
-	move: left;
+ /* align-self: flex-start;
+	move: left;*/
+	justify-content: center;
 }
 .hero-image {
   height: 150px;
@@ -158,9 +159,9 @@ footer {
   font-size: 1.2em;
   margin: 0.5em 0;
 }
-.hero-text {
+/*.hero-text {
   text-align: center;
-}
+}*/
 
 /* RESUME PAGE */
 .resume-container {
