@@ -129,20 +129,20 @@ footer {
 
 /* INDEX.HTML — HERO SECTION */
 .hero-layout {
-  display: flex;
+  display: center;
   align-items: center;
 	justify-content: center;
-  gap: 3rem;
+  /*gap: 3rem;*/
   flex-wrap: wrap;
-	padding: 3rem 1rem;
-	max-width: 1000px;
+	/*padding: 3rem 1rem;*/
+	/*max-width: 1000px;*/
 	margin: 0 auto;
 }
 
 .hero-image-container {
-  flex: 1;
+  flex: wrap;
   justify-content: center;
-	display: flex;
+	display: center;
 }
 
 .hero-image {
@@ -166,7 +166,7 @@ footer {
 }*/
 
 .hero-text {
-	text-align: left;
+	text-align: center;
 }
 
 /* ABOUT, SKILLS, CTA */
