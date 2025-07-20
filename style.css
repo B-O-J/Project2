@@ -192,12 +192,12 @@ footer {
   gap: 2em;
   flex-wrap: wrap;
   margin-bottom: 2em;
-  text-align: left;
+  text-align: center;
 }
 
 .resume-text {
   flex: 1 1 60%;
-  text-align: left;
+  text-align: center;
 }
 
 .resume-image {
@@ -252,7 +252,7 @@ footer {
 
   .hero-image {
     width: 80px;
-    height: 80px;
+    height: 60px;
   }
 
   .profile-image img {
