@@ -130,19 +130,18 @@ footer {
 /* HERO SECTION */
 .hero-layout {
   display: flex;
-	flex-direction: column;
+	flex-direction: row;
   justify-content: center;
-  align-items: center;
-  /*margin-top: 2em;
-  flex-wrap: wrap;*/
-	text-align: center;
+  align-items: flex-start;
+  margin-top: 2em;
+  flex-wrap: wrap;
+	/*text-align: center;*/
 	gap: 1.5em;
-	padding: 2em 1em;
+	/*padding: 2em 1em;*/
 }
 .hero-image-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  margin-left: 15px;
+	flex-shrink: o;
 }
 .hero-image {
   height: 150px;
@@ -164,6 +163,9 @@ footer {
 }
 .hero-text {
   max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	transform: translateY(-40px);
 }
 
 /* RESUME PAGE */
