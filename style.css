@@ -199,7 +199,8 @@ footer {
   padding: 0 2em;
 	max-width: 1000px;
 }
-.resume-contact {
+.resume-contact, 
+.resume-pdf {
 	justify-content: center;
 }
 .resume-text {
