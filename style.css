@@ -16,7 +16,7 @@ html, body {
 
 /* General reset and background */
 body {
-  background: linear-gradient(135deg, rgba(30, 30, 47, 0.9), rgba(255, 95, 109, 0.4)), url('https://images.unsplash.com/photo-1614676470152-b4a4cb74a25f?auto=format&fit=crop&w=1470&q=80');
+  background: linear-gradient(135deg, rgba(30, 30, 47, 0.9), rgba(255, 95, 109, 0.4)), url("https://images.unsplash.com/photo-1614676470152-b4a4cb74a25f?auto=format&fit=crop&w=1470&q=80");
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: fixed;
