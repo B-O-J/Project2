@@ -202,13 +202,11 @@ footer {
 .resume-contact {
 	justify-content: center;
 }
-}
 .resume-text {
   flex: 1 1 60%;
   text-align: center;
 	max-width: 500px;
 	margin: 0 auto;
-	justify-content: center;
 }
 .resume-image {
   flex: 0 0 auto;
