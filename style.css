@@ -235,6 +235,7 @@ footer {
   max-width: 1000px;
   margin: 4em auto;
   padding: 0 2em;
+	move: right;
 }
 .resume-lower-text {
   flex: 1 1 60%;
@@ -245,7 +246,7 @@ footer {
 }
 .resume-lower-image img {
   width: 220px;
-  height: 450px; /* Adjust based on actual section height */
+  height: 450px;
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
