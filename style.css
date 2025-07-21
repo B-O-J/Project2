@@ -162,11 +162,11 @@ footer {
   margin: 0.5em 0;
 }
 .hero-text {
-  max-width: 600px;
+  max-width: 1000px;
+	margin: 0 auto;
 	padding: 0 2em;
-	text-align: left;
+	text-align: center;
 	transform: translateY(-30px);
-}
 
 /* RESUME PAGE */
 .resume-container {
