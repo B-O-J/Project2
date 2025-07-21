@@ -196,12 +196,11 @@ footer {
   gap: 2em;
   flex-wrap: wrap;
   margin: 4em auto 2em auto;
-	margin-left: 10px;
+	move: right;
   padding: 0 2em;
 	max-width: 1000px;
 }
-.resume-contact, 
-.resume-pdf {
+.resume-contact {
 	justify-content: center;
 }
 .resume-text {
