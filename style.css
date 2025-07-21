@@ -199,7 +199,10 @@ footer {
   padding: 0 2em;
 	max-width: 1000px;
 }
-.resume-contact{
+.resume-contact {
+	justify-content: center;
+}
+.resume-block {
 	justify-content: center;
 }
 .resume-text {
@@ -213,8 +216,8 @@ footer {
   margin-top: 1em;
 }
 .resume-image img {
-  width: 200px;
-  height: 300px;
+  width: 250px;
+  height: 350px;
   border: none;
   object-fit: cover;
   box-shadow: 0 10px 30px rgba(255, 255, 255, 0.07);
