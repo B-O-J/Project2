@@ -239,6 +239,10 @@ footer {
 .resume-lower-text {
   flex: 1 1 60%;
 }
+.resume-lower-image {
+	flex: 0 0 auto;
+	margin-top: 1em;
+}
 .resume-lower-image img {
   width: 220px;
   height: 450px; /* Adjust based on actual section height */
@@ -282,6 +286,16 @@ section {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+}
+.resume-lower {
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.resume-lower-image img {
+	width: 100%;
+	height: auto;
+	max-width: 300px;
 }
 .hero-layout {
 	flex-direction: column;
