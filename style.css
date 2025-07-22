@@ -16,6 +16,9 @@ html, body {
 }
 
 /* General reset and background */
+.test-page3-bg {
+	background: green !important;
+}
 body {
   background: linear-gradient(135deg, rgba(30, 30, 47, 0.9), rgba(255, 95, 109, 0.4)), url('images/background.jpg');
   background-blend-mode: overlay;
