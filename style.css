@@ -282,6 +282,21 @@ section {
   padding: 0 1em;
 }
 
+/* Page3 Mobile Background Fix */
+body {
+  min-height: 100vh;
+}
+main {
+  flex: 1 0 auto;
+}
+footer {
+  flex-shrink: 0;
+}
+body::before {
+  position: absolute;
+  min-height: 100vh;
+}
+
 /* Responsive layout */
 @media (max-width: 768px) {
 .resume-container {
