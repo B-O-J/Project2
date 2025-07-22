@@ -9,7 +9,8 @@
 
 /* LAYOUT BASE */
 html, body {
-  height: 100%;
+  height: auto;
+	min-height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -325,6 +326,8 @@ header nav ul {
 body {
 	background-attachment: scroll;
 	background-position: top;
+	background-size: cover;
+	min-height: 100vh;
 }
 body::before {
 	backdrop-filter: none;
