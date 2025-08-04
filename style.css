@@ -17,7 +17,7 @@ html, body {
 
 /* BACKGROUND */
 body {
-  background: linear-gradient(135deg, rgba(30, 30, 47, 0.9), rgba(255, 95, 109, 0.4)), url('images/Manager-Background.jpg');
+  background: linear-gradient(135deg, rgba(30, 30, 47, 0.9), rgba(255, 95, 109, 0.4)), url('images/Manager-Background1.jpg');
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: fixed;
