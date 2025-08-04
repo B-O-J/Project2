@@ -77,10 +77,12 @@ header nav ul li a:hover {
 }
 /* LOGO INTEGRATION */
 .header-content {
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 0.5em;
+  padding: 0 1em;
   flex-wrap: wrap;
 }
 
