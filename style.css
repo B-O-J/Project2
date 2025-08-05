@@ -90,7 +90,7 @@ header nav ul li a:hover {
   flex-wrap: wrap;
 }
 .logo {
-  height: 40px;
+  height: 45px;
   width: auto;
 	max-width: 150px;
 	display: block;
@@ -100,7 +100,7 @@ header nav ul li a:hover {
   align-items: center;
 }
 .logo-link img {
-	max-height: 40px;
+	max-height: 45px;
 	width: auto;
 	object-fit: contain;
 }
