@@ -44,7 +44,7 @@ body::before {
 header {
   background-color: maroon;
   width: 100%;
-  padding: 0.5em 0;
+  padding: 0.2em 0;
   text-align: center;
   position: sticky;
   top: 0;
@@ -52,7 +52,6 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 header nav {
-  /* Removed max-width and margin to follow header-content layout */
   flex: 1;
 }
 header nav ul {
@@ -61,7 +60,7 @@ header nav ul {
   align-items: center;
   gap: 2em;
   list-style: none;
-  padding: 1em 0;
+  padding: 0.5em 0;
   background-color: #7c0000;
   flex-wrap: wrap;
 }
@@ -89,9 +88,9 @@ header nav ul li a:hover {
   flex-wrap: wrap;
 }
 .logo {
-  height: 50px;
+  height: 35px;
   width: auto;
-  max-width: 150px;
+  max-width: 120px;
   display: block;
 }
 .logo-link {
@@ -99,7 +98,7 @@ header nav ul li a:hover {
   align-items: center;
 }
 .logo-link img {
-  max-height: 50px;
+  max-height: 35px;
   width: auto;
   object-fit: contain;
 }
