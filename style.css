@@ -50,6 +50,7 @@ header {
 header nav {
   max-width: 1000px;
   margin: 0 auto;
+	justify-content: center;
 }
 header nav ul {
   display: flex;
