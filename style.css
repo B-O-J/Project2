@@ -370,9 +370,9 @@ body::before {
   .hero-text {
     text-align: left;
   }
-	header nav ul {
+	/*header nav ul {
     justify-content: flex-end;
-  }
+  }*/
 }
 
 
