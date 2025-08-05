@@ -89,9 +89,10 @@ header nav ul li a:hover {
 .logo {
   height: 50px;
   width: auto;
+	move: left;
 }
 .logo-link {
-  /*display: flex;*/
+  display: flex;
   align-items: center;
 }
 
