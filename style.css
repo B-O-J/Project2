@@ -44,13 +44,13 @@ body::before {
 header {
   background-color: maroon;
   width: 100%;
-  padding: 0.5em 0;
+  padding: 1em 0;
   text-align: center;
 }
 header nav {
   max-width: 1000px;
   margin: 0 auto;
-	/*justify-content: center;*/
+	justify-content: center;
 }
 header nav ul {
   display: flex;
