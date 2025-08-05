@@ -46,13 +46,14 @@ header {
   width: 100%;
   padding: 0.2em 0;
   text-align: center;
-  position: sticky;
-  top: 0;
+	top: 0;
   z-index: 999;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
 }
 header nav {
-  flex: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+	justify-content: center;
 }
 header nav ul {
   display: flex;
@@ -62,7 +63,7 @@ header nav ul {
   list-style: none;
   padding: 0.5em 0;
   background-color: #7c0000;
-  flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 header nav ul li a {
   font-family: 'Lobster', cursive;
@@ -76,11 +77,12 @@ header nav ul li a {
 header nav ul li a.active,
 header nav ul li a:hover {
   background-color: #a52a2a;
-  font-weight: bold;
+	font-weight: bold;
 }
-
 /* LOGO INTEGRATION */
 .header-content {
+ /* max-width: 1000px;
+  margin: 0 auto; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,17 +92,17 @@ header nav ul li a:hover {
 .logo {
   height: 35px;
   width: auto;
-  max-width: 120px;
-  display: block;
+	max-width: 150px;
+	display: block;
 }
 .logo-link {
   display: flex;
   align-items: center;
 }
 .logo-link img {
-  max-height: 35px;
-  width: auto;
-  object-fit: contain;
+	max-height: 35px;
+	width: auto;
+	object-fit: contain;
 }
 
 /* MAIN WRAPPER */
