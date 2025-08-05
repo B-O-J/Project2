@@ -91,7 +91,7 @@ header nav ul li a:hover {
   width: auto;
 }
 .logo-link {
-  display: flex;
+  /*display: flex;*/
   align-items: center;
 }
 
